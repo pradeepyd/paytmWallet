@@ -11,8 +11,8 @@ export const authOptions = {
     callbacks: {
       async signIn({ user, account }: {
         user: {
-          email: string;
-          name: string
+          email: string,
+          name: string,
         },
         account: {
           provider: "google" | "github"
